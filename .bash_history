@@ -33,3 +33,72 @@ git commit -m 'first commit'
 git remote add origin https://github.com/erickpoleto/cs50-C-introduction.git
 git push -u origin
 git push -u origin master
+git add .
+git commit -m 'hello, name, arquives';
+git push
+mv string.c ./
+mv string.c ./..
+mv string.c ./
+clear
+cd /string
+cd string
+mv string.c ./
+mv string.c ./..
+cd /
+cd hello
+ls
+cd tmp
+ls
+cd hello
+mv hello.c /..
+cd /..
+ls
+cd bin
+ls
+cd ../
+ls
+cd lib
+ls
+pwd
+cd /..
+ls
+mv hello.c root/sandbox
+delete hello
+rm hello
+mkdir hello
+cd root
+mkdir hello
+ls
+cd sandbox
+mkdir hello
+mkdir string
+mv string.c string
+mv hello.c hello
+cd string
+clang -o string string.c
+clear
+clang -o string string.c -lcs50
+make string
+./string
+cd 
+ls
+cd hello
+create hello.c
+create hello
+make hello
+./hello
+cd
+mkdir variables
+cd string
+make string
+./string
+cd
+cd variable-loop
+make loop
+./loop
+clear
+make loop
+./loop
+make loop
+./loop
+cd
