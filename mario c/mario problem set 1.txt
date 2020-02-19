@@ -1,0 +1,37 @@
+﻿#include <cs50.h>
+#include <stdio.h>
+
+
+int main(void)
+{
+    int height = 0;
+    do 
+    {
+        height = get_int("height: ");
+    }
+    while ( height < 1);
+    for(int i = 0; i < height ; i++){
+        for(int j = height; j > i + 1; j--){
+            printf(" ");
+        }
+        for( int k = 0; k < i; k++){
+            printf("#");
+        }
+        printf("#");
+        printf("\n");
+
+
+    }
+    
+
+
+}
+
+
+
+
+
+
+create an loop that wait for a "true" condition from the user, only if is int and greatter than 1;
+create an loop that reference a column with the height that the user choose, and inside the first loop, one more loop  for lines that's implemented by 1;
+to make a inverted tower, we need to put some "spaces" before the hashs, that is a loop before the loop for hashs in lines, and inside the loop for cols, that loop is initialized in by the same value of the height, and i'll run, untill is greatter the column loop plus one, and is decremented by 1 for every run of the loop;
